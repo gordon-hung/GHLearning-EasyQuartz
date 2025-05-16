@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartz.AppSimpleSchedule", "src\GHLearning.EasyQuartz.AppSimpleSchedule\GHLearning.EasyQuartz.AppSimpleSchedule.csproj", "{ACADBAA9-63D1-46F4-ABA2-EEF54F0B8F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartz.AppCronSchedule", "src\GHLearning.EasyQuartz.AppCronSchedule\GHLearning.EasyQuartz.AppCronSchedule.csproj", "{33865FBC-F968-494B-B5DB-7CBD88055EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartz.AppSentry", "src\GHLearning.EasyQuartz.AppSentry\GHLearning.EasyQuartz.AppSentry.csproj", "{C32E3CFF-7AC4-404F-8707-27F9004B1388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartz.AppDisallowConcurrentExecution", "src\GHLearning.EasyQuartz.AppDisallowConcurrentExecution\GHLearning.EasyQuartz.AppDisallowConcurrentExecution.csproj", "{53F0B19A-2002-43BF-9442-AA187AA823F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartz.AppOpenTelemetry", "src\GHLearning.EasyQuartz.AppOpenTelemetry\GHLearning.EasyQuartz.AppOpenTelemetry.csproj", "{7CFA1A71-584C-4B94-94C2-A7C7B2A9B05F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartz.AppCrystalQuartz", "src\GHLearning.EasyQuartz.AppCrystalQuartz\GHLearning.EasyQuartz.AppCrystalQuartz.csproj", "{C6CD1807-4AC1-4888-AF2E-28BDF1AB42F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACADBAA9-63D1-46F4-ABA2-EEF54F0B8F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACADBAA9-63D1-46F4-ABA2-EEF54F0B8F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACADBAA9-63D1-46F4-ABA2-EEF54F0B8F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACADBAA9-63D1-46F4-ABA2-EEF54F0B8F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33865FBC-F968-494B-B5DB-7CBD88055EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33865FBC-F968-494B-B5DB-7CBD88055EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33865FBC-F968-494B-B5DB-7CBD88055EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33865FBC-F968-494B-B5DB-7CBD88055EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32E3CFF-7AC4-404F-8707-27F9004B1388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32E3CFF-7AC4-404F-8707-27F9004B1388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32E3CFF-7AC4-404F-8707-27F9004B1388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32E3CFF-7AC4-404F-8707-27F9004B1388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F0B19A-2002-43BF-9442-AA187AA823F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F0B19A-2002-43BF-9442-AA187AA823F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F0B19A-2002-43BF-9442-AA187AA823F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F0B19A-2002-43BF-9442-AA187AA823F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFA1A71-584C-4B94-94C2-A7C7B2A9B05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFA1A71-584C-4B94-94C2-A7C7B2A9B05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFA1A71-584C-4B94-94C2-A7C7B2A9B05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFA1A71-584C-4B94-94C2-A7C7B2A9B05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CD1807-4AC1-4888-AF2E-28BDF1AB42F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CD1807-4AC1-4888-AF2E-28BDF1AB42F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CD1807-4AC1-4888-AF2E-28BDF1AB42F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CD1807-4AC1-4888-AF2E-28BDF1AB42F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACADBAA9-63D1-46F4-ABA2-EEF54F0B8F52} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{33865FBC-F968-494B-B5DB-7CBD88055EE0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C32E3CFF-7AC4-404F-8707-27F9004B1388} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{53F0B19A-2002-43BF-9442-AA187AA823F7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7CFA1A71-584C-4B94-94C2-A7C7B2A9B05F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C6CD1807-4AC1-4888-AF2E-28BDF1AB42F0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF61626D-677B-4DBC-948D-39A04A81780B}
+	EndGlobalSection
+EndGlobal
